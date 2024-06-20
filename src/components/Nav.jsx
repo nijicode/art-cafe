@@ -31,7 +31,7 @@ const Nav = () => {
           <span className="mr-2">
             <div className="bg-black w-12 h-12 border-2 border-white rounded-full overflow-hidden">
               <img
-                src="./images/art-cafe-logo.jpg"
+                src="./art-cafe-logo.jpg"
                 className="h-full object-contain "
                 alt="art-cafe-logo"
               />
