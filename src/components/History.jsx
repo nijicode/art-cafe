@@ -8,7 +8,7 @@ const History = () => {
     <div className="bg-black w-full z-10 h-auto p-10 md:p-20 " id="service">
       <div className="flex w-full h-auto flex-col gap-12">
         <div className="flex gap-8 md:flex-row flex-col">
-          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-md shadow-gray-600">
+          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-lg shadow-gray-600">
             <img
               src={mission}
               alt=""
@@ -26,7 +26,7 @@ const History = () => {
           </div>
         </div>
         <div className="flex gap-8 md:flex-row-reverse flex-col">
-          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-md shadow-gray-600">
+          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-lg shadow-gray-600">
             <img
               src={vision}
               alt=""
@@ -43,8 +43,8 @@ const History = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 md:flex-row flex-col mb-32">
-          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-md shadow-gray-600">
+        <div className="flex gap-8 md:flex-row flex-col">
+          <div className="w-full md:w-[300px] lg:w-[500px] h-[350px] rounded-lg shadow-lg shadow-gray-600">
             <img
               src={values}
               alt=""

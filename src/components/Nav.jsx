@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 
 const Nav = () => {
   let Links = [
+    { name: "SERVICE", link: "service", offset: -100 },
     { name: "SPECIAL OFFERS", link: "offers", offset: -90 },
     { name: "MENU", link: "menu", offset: -55 },
-    { name: "SERVICE", link: "service", offset: -100 },
     { name: "ABOUT", link: "footer", offset: 0 },
   ];
 
@@ -70,7 +70,7 @@ const Nav = () => {
                 smooth={true}
                 offset={link.offset}
                 duration={500}
-                className="hover:text-gray-400  transition-all duration-500"
+                className="hover:text-gray-400 transition-all duration-500"
               >
                 {link.name}
               </Link>

@@ -11,9 +11,10 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <History />
       <SpecialOffers />
       <Menu />
-      <History />
+
       <Footer />
     </>
   );

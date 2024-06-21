@@ -7,7 +7,7 @@ import Mojito from "./Mojito";
 const Menu = () => {
   return (
     <div
-      className="w-full h-auto bg-black text-white flex flex-col p-10 items-center"
+      className="w-full h-auto bg-black text-white flex flex-col p-10 pb-32 items-center"
       id="menu"
     >
       <div className="w-full flex flex-col items-center">

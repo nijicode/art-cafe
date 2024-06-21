@@ -6,7 +6,7 @@ const Mojito = ({ id, name, img, lPrice, mPrice }) => {
   return (
     <div
       id={id}
-      className="bg-white duration-500 hover:scale-105 p-5 rounded-lg w-full h-full text-black shadow-lg shadow-gray-700"
+      className="bg-white duration-500 hover:scale-105 p-5 rounded-lg w-full h-full text-black shadow-lg shadow-gray-700 mb-"
     >
       <div className="relative">
         <img
